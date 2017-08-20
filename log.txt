@@ -1,0 +1,33 @@
+[20170820 19:10]do-what-it-says
+[20170820 19:10]spotify-this-song "I Want it That Way"
+[20170820 19:10]The artist: Backstreet Boys
+[20170820 19:10]Sample link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f8ec476bb8514071978cfa3629cc5e64
+[20170820 19:10]Found your song: I Want It That Way
+[20170820 19:10]Album: The Hits--Chapter One Track: 1
+[20170820 19:10]spotify-this-song We will rock you
+[20170820 19:10]Found your song: We Will Rock You
+[20170820 19:10]No sample available.
+[20170820 19:10]The artist: Queen
+[20170820 19:10]Album: Queen 40 Limited Edition Collector's Box Set Vol. 2 Track: 1
+[20170820 19:10]movie-this The matrix
+[20170820 19:10]No movie with that title was found
+[20170820 19:11]movie-this The Matrix
+[20170820 19:11]No movie with that title was found
+[20170820 19:16]movie-this the matrix
+[20170820 19:16]Title: The Matrix
+[20170820 19:16]IMDB rating: 8.7/10
+[20170820 19:16]Rotten Tomatoes: 87%
+[20170820 19:16]Year: 1999
+[20170820 19:16]Country: USA
+[20170820 19:16]Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+[20170820 19:16]Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+[20170820 19:16]Language: English
+[20170820 19:16]movie-this The matrix
+[20170820 19:16]Rotten Tomatoes: 87%
+[20170820 19:16]Year: 1999
+[20170820 19:16]Title: The Matrix
+[20170820 19:16]Country: USA
+[20170820 19:16]IMDB rating: 8.7/10
+[20170820 19:16]Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+[20170820 19:16]Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+[20170820 19:16]Language: English

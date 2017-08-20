@@ -1,4 +1,3 @@
-console.log('this is loaded');
 exports.twitterKeys={
 	consumer_key: 'SRPU7haMxnmrJhwxehsHIeteR',
 	consumer_secret:'feWYpeuSIrauI8IpTDDMXICd0TxE4eRiQnl1cMkCsSQpiOMhr5',
@@ -10,3 +9,5 @@ exports.spotifyKeys={
 	id:'f8ec476bb8514071978cfa3629cc5e64',
 	secret:'143fde3580a2495e9a266b409b6074ca',
 }
+
+exports.omdbapiKey="40e9cece";
