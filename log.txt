@@ -1,33 +1,25 @@
-[20170820 19:10]do-what-it-says
-[20170820 19:10]spotify-this-song "I Want it That Way"
-[20170820 19:10]The artist: Backstreet Boys
-[20170820 19:10]Sample link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f8ec476bb8514071978cfa3629cc5e64
-[20170820 19:10]Found your song: I Want It That Way
-[20170820 19:10]Album: The Hits--Chapter One Track: 1
-[20170820 19:10]spotify-this-song We will rock you
-[20170820 19:10]Found your song: We Will Rock You
-[20170820 19:10]No sample available.
-[20170820 19:10]The artist: Queen
-[20170820 19:10]Album: Queen 40 Limited Edition Collector's Box Set Vol. 2 Track: 1
-[20170820 19:10]movie-this The matrix
-[20170820 19:10]No movie with that title was found
-[20170820 19:11]movie-this The Matrix
-[20170820 19:11]No movie with that title was found
-[20170820 19:16]movie-this the matrix
-[20170820 19:16]Title: The Matrix
-[20170820 19:16]IMDB rating: 8.7/10
-[20170820 19:16]Rotten Tomatoes: 87%
-[20170820 19:16]Year: 1999
-[20170820 19:16]Country: USA
-[20170820 19:16]Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
-[20170820 19:16]Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
-[20170820 19:16]Language: English
-[20170820 19:16]movie-this The matrix
-[20170820 19:16]Rotten Tomatoes: 87%
-[20170820 19:16]Year: 1999
-[20170820 19:16]Title: The Matrix
-[20170820 19:16]Country: USA
-[20170820 19:16]IMDB rating: 8.7/10
-[20170820 19:16]Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
-[20170820 19:16]Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
-[20170820 19:16]Language: English
+[20170820 21:48:02]my-tweets
+[20170820 21:48:03]
+[20170820 21:48:03]**********TWEETS**********
+[20170820 21:48:03]
+[20170820 21:48:03]Time: 2017-08-20 04:26:33 PM
+[20170820 21:48:03]Text: This a test to see if my date formatting is working. it is now 4:26 PM on 8/20/2017
+[20170820 21:48:03]
+[20170820 21:48:03]Time: 2017-08-19 07:14:28 PM
+[20170820 21:48:03]Text: Coding BootCamp 1
+[20170820 21:48:03]
+[20170820 21:48:03]Time: 2017-08-16 04:49:10 PM
+[20170820 21:48:03]Text: @weird_hist @weird_sci Not Prehistoric, the history was recorded on paper. This is pre-Silcon chip.
+[20170820 21:48:03]
+[20170820 21:48:03]Time: 2017-08-16 04:46:55 PM
+[20170820 21:48:03]Text: I've now tweeted more from this fake account than I have from my real account.
+[20170820 21:48:03]
+[20170820 21:48:03]Time: 2017-08-16 04:46:19 PM
+[20170820 21:48:03]Text: I'll add a few more like this.
+[20170820 21:48:03]
+[20170820 21:48:03]Time: 2017-08-16 04:45:50 PM
+[20170820 21:48:03]Text: This is for a coding class, so like any good geek I started with Hello World.
+[20170820 21:48:03]
+[20170820 21:48:03]Time: 2017-08-16 04:44:27 PM
+[20170820 21:48:03]Text: Hello World
+[20170820 21:48:03]

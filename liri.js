@@ -20,7 +20,7 @@ function whatToDo() {
     .prompt([{
       type: 'list',
       message: 'What would you like to do?',
-      choices: ['my-tweets', 'spotify-this-song', 'movie-this', 'do-what-it-says', 'Exit'],
+      choices: ['Exit', 'my-tweets', 'spotify-this-song', 'movie-this', 'do-what-it-says'],
       name: 'command'
     }]).then(function(inquirerResponse) {
       switch (inquirerResponse.command) {
@@ -73,6 +73,7 @@ function doStuff(command, query) {
       break;
     default:
       logger(command + ' is not a valid command!');
+      whatToDo();
   }
 }
 
@@ -120,11 +121,17 @@ function getSpotify(query) {
     if (err) {
       return console.log('Error occurred: ' + err);
     }
-    displaySpotify(data, query);
+    if ((data.tracks.items).length === 0) {
+      logger('Your song was not found.');
+      whatToDo();
+    } else {
+      displaySpotify(data, query);
+    }
   });
 }
 
 function displaySpotify(data, query) {
+  var found = false;
   for (i = 0; i < (data.tracks.items).length; i++) {
     if (query.toUpperCase() === (data.tracks.items[i].name).toUpperCase()) {
       logger('Found your song: ' + data.tracks.items[i].name);
@@ -135,20 +142,20 @@ function displaySpotify(data, query) {
       break;
     }
   }
-  found ? whatToDo() : songNotFound(data);
+  found ? whatToDo() : songNotFound(data.tracks.items[0].name);
 }
 
-function songNotFound(data) {
+function songNotFound(firstLookup) {
   inquirer
     .prompt([{
       type: 'confirm',
-      message: 'Could not find your song. Did you mean ' + data.tracks.items[0].name + '?',
+      message: 'Could not find your song. Did you mean ' + firstLookup + '?',
       name: 'confirm',
       default: true
     }])
     .then(function(inquirerResponse) {
       if (inquirerResponse.confirm) {
-        doStuff('spotify-this-song', data.tracks.items[0].name);
+        doStuff('spotify-this-song', firstLookup);
       } else {
         logger('Your song was not found.');
         whatToDo();
@@ -174,7 +181,7 @@ function displayOMDB(body) {
     logger('Title: ' + data.Title);
     logger('Year: ' + data.Year);
     logger('IMDB rating: ' + data.Ratings[0].Value);
-    logger('Rotten Tomatoes: ' + data.Ratings[1].Value);
+    data.Ratings[1]?logger('Rotten Tomatoes: ' + data.Ratings[1].Value):logger('Rotten Tomatoes has not rated this film');
     logger('Country: ' + data.Country);
     logger('Language: ' + data.Language);
     logger('Plot: ' + data.Plot);
@@ -188,8 +195,9 @@ function displayOMDB(body) {
 function logger(message) {
   console.log(message);
   var logdate = new Date();
-  logdate = moment(logdate).format('YYYYMMDD HH:mm');
-  fs.appendFile('log.txt', '[' + logdate + ']' + message + '\n', function(err) {
+  logdate = moment(logdate).format('YYYYMMDD HH:mm:ss');
+  // using appendFileSync to make sure logs are created in order
+  fs.appendFileSync('log.txt', '[' + logdate + ']' + message + '\n', 'utf8',function(err) {
     if (err) {
       return console.log(err);
     }
